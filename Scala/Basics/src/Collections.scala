@@ -13,10 +13,13 @@ object Collections {
     Map("foo" -> "bar")
     Map(1 -> Map("foo" -> "bar"))
     def timesTwo(x: Int): Int = x * 2
+
+    // partial apply, not difficult
     val myFuncMap = Map("timesTwo" -> {
       timesTwo(_)
     })
 
+    println(myFuncMap("timesTwo")(55))
   }
 
   //Similar to the usage in Python

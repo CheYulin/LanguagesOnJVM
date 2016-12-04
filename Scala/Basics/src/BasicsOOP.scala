@@ -63,6 +63,39 @@ object BasicsOOP {
   }
 
   //traits are collections of fields and behaviors that you can extend or mixin to your classes.
+  trait Car {
+    val brand: String
+  }
+
+  trait Shiny {
+    val shineRefraction: Int
+  }
+
+  class BMW extends Car {
+    override val brand: String = "BMW"
+  }
+
+
+  //Favor using traits. It’s handy that a class can extend several traits; a class can extend only one class.
+  //If you need a constructor parameter, use an abstract class.
+  // Abstract class constructors can take parameters; trait constructors can’t. For example, you can’t say trait t(i: Int) {}; the i parameter is illegal.
+  class BMW2 extends Car with Shiny {
+    override val brand = "BMW"
+    override val shineRefraction = 12
+  }
+
+  //Generic Class, similar to class template in C++
+  trait Cache[K, V] {
+    def get(key: K): V
+
+    def put(key: K, value: V)
+
+    def delete(key: K)
+  }
+
+
+  //Generic Function, similar to function templaete in C++
+  def remove[K](key: K) = {}
 
   def main(args: Array[String]) = {
     val calc = new Calculator("HP")
