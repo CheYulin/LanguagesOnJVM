@@ -4,6 +4,8 @@ package org.yche.collection
   * Created by cheyulin on 12/4/16.
   */
 object Collections {
+  def timesTwo(x: Int): Int = x * 2
+
   def demoCollections() = {
     val numbersArray = Array(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
     val numbersList = List(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
@@ -14,7 +16,6 @@ object Collections {
     Map(1 -> 2)
     Map("foo" -> "bar")
     Map(1 -> Map("foo" -> "bar"))
-    def timesTwo(x: Int): Int = x * 2
 
     // partial apply, not difficult
     val myFuncMap = Map("timesTwo" -> {
@@ -76,11 +77,68 @@ object Collections {
 
     resList = numbersList.dropWhile(_ % 2 != 0)
     println(resList)
+
+    //Fold on Left, Similar to Reduce
+    println(numbersList.foldLeft(0)((m: Int, n: Int) => {
+      println("m: " + m + " n: " + n)
+      m + n
+    }))
+
+
+    //Fold on Right, Similar to Reduce
+    println(numbersList.foldRight(0)((m: Int, n: Int) => {
+      println("m: " + m + " n: " + n)
+      m + n
+    }))
+
+
+    val nestedList = List(List(1, 2), List(3, 4))
+    resList = nestedList.flatten
+    println(resList)
+
+    // Flat Map
+    resList = nestedList.flatMap(x => x.map(_ * 2))
+    println(resList)
+    // Syntax Sugar for the following
+    resList = nestedList.map((x: List[Int]) => x.map(_ * 3)).flatten
+    println(resList)
+    println()
   }
 
+  def demoGeneralizedFunctionalCombinator() = {
+    val numbers = List(1, 2, 3, 4)
+    def ourMap(numbers: List[Int], fn: Int => Int): List[Int] = {
+      numbers.foldRight(List[Int]()) {
+        (x: Int, xs: List[Int]) => fn(x) :: xs
+      }
+    }
+
+    println(ourMap(numbers, timesTwo(_)))
+  }
+
+
+  def demoListUsage() = {
+    var myList = List[Int]()
+    myList = 2 :: myList
+    myList = 1 :: myList
+    println(myList)
+    println()
+  }
+
+  def demoFunctionalOnMap() = {
+    val myMap = Map("steve" -> 100, "bob" -> 101, "joe" -> 201)
+    var resMap = myMap.filter((myPair: (String, Int)) => myPair._2 < 200)
+    resMap.foreach((myPair: (String, Int)) => println(myPair._1))
+
+    resMap = myMap.filter({ case (name, value) => value < 200 })
+    println(resMap)
+  }
 
   def main(args: Array[String]) = {
     demoCollections()
     demoFunctional()
+    demoGeneralizedFunctionalCombinator()
+    demoListUsage()
+    demoFunctionalOnMap()
   }
 }

@@ -65,7 +65,75 @@ object BasicsContinue {
 
   def demoPackageUsage() = {
     println("the color is " + org.yche.example.colorHolder.BLUE)
+  }
 
+  def demoPatMatch() = {
+    def matchFunc(i: Int) = {
+      i match {
+        case i if i == 1 => "one"
+        case i if i == 2 => "two"
+        case _ => "some other words"
+      }
+    }
+
+    val myList = List(1, 2, 3)
+    var resList = myList.map(matchFunc(_))
+    println(resList)
+
+    println()
+
+    def bigger(o: Any): Any = {
+      o match {
+        case i: Int if i < 0 => i - 1
+        case i: Int => i + 1
+        case d: Double if d < 0.0 => d - 0.1
+        case d: Double => d + 0.1
+        case text: String => text + " your string"
+      }
+    }
+
+    val MyList = List[Any](-1, 2, -0.5, 0.5, "Hello")
+    MyList.foreach((o: Any) => println(bigger(o)))
+
+
+    def calcType(calc: Calculator) = calc match {
+      case _ if calc.brand == "HP" && calc.model == "20GB" => "finicial"
+      case _ => "Unknow"
+    }
+
+    val calc0 = Calculator("HP", "20GB")
+    println(calcType(calc0))
+    println(calcType(Calculator("fds", "dsa")))
+    println()
+  }
+
+  class Calculator(str0: String, str1: String) {
+    val brand = str0
+    val model = str1
+  }
+
+  object Calculator {
+    def apply(str0: String, str1: String): Calculator = new Calculator(str0, str1)
+  }
+
+  case class CaseCalculator(brand: String, model: String)
+
+
+  def demoCaseClass() = {
+    val hp20b = CaseCalculator("HP", "20b")
+
+    def calcType(calc: CaseCalculator) = calc match {
+      case CaseCalculator("HP", "20B") => "financial"
+      case CaseCalculator("HP", "48G") => "scientific"
+      case CaseCalculator("HP", "30B") => "business"
+      case CaseCalculator(ourBrand, ourModel) => "Calculator: %s %s is of unknown type".format(ourBrand, ourModel)
+    }
+
+    val brandList = List[String]("HP", "HP", "HP", "HP")
+    val modelList = List[String]("20B", "48G", "30B", "Test")
+    val pairList = brandList.zip(modelList)
+
+    pairList.map((myPair: (String, String)) => CaseCalculator(myPair._1, myPair._2)).map(calcType(_)).foreach((retStr: String) => println(retStr))
   }
 
   def main(args: Array[String]) = {
@@ -74,5 +142,7 @@ object BasicsContinue {
     demoObject()
     demoFuncObjectClass()
     demoPackageUsage()
+    demoPatMatch()
+    demoCaseClass()
   }
 }

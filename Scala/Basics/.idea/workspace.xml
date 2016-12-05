@@ -22,31 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicsContinue.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BasicsContinue.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+            <state relative-caret-position="204">
+              <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collections.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Collections.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/yche/collection/Collections.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="74" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicsFunctional.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsFunctional.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="221">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -79,8 +69,9 @@
         <option value="$PROJECT_DIR$/src/org/yche/example/PackageDemo.scala" />
         <option value="$PROJECT_DIR$/src/BasicsContinue.scala" />
         <option value="$PROJECT_DIR$/src/org/yche/basics/Collections.scala" />
-        <option value="$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/org/yche/collection/Collections.scala" />
+        <option value="$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala" />
       </list>
     </option>
   </component>
@@ -214,7 +205,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Collections">
+  <component name="RunManager" selected="Application.BasicsContinue">
     <configuration default="false" name="Specifications" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs" />
@@ -790,10 +781,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Collections" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicsContinue" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicsOOP" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BasicsContinue" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BasicsOOP" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Collections" />
         <item index="4" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
       </list>
     </recent_temporary>
@@ -814,12 +805,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480901652152</updated>
       <workItem from="1480901653815" duration="235000" />
-      <workItem from="1480902246872" duration="5031000" />
+      <workItem from="1480902246872" duration="10051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5266000" />
+    <option name="totallyTimeSpent" value="10286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-1" width="1922" height="1050" extended-state="6" />
@@ -832,7 +823,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34012875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2972103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -968,22 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsOOP.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsFunctional.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yche/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -992,18 +967,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala">
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsFunctional.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        <state relative-caret-position="493">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsOOP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="62" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yche/collection/Collections.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="74" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
           <folding />
         </state>
       </provider>
