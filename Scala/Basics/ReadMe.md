@@ -14,3 +14,5 @@
     println(ourMap(numbers, timesTwo(_)))
   }
 ```
+
+##Type & Polymorphism Basics

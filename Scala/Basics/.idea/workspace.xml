@@ -22,23 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicsContinue.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala">
+      <file leaf-file-name="Function.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
+            <state relative-caret-position="340">
+              <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collections.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/yche/collection/Collections.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="42" />
-              <folding />
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="289">
+                <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -69,9 +75,11 @@
         <option value="$PROJECT_DIR$/src/org/yche/example/PackageDemo.scala" />
         <option value="$PROJECT_DIR$/src/BasicsContinue.scala" />
         <option value="$PROJECT_DIR$/src/org/yche/basics/Collections.scala" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/org/yche/collection/Collections.scala" />
         <option value="$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala" />
+        <option value="$PROJECT_DIR$/src/org/yche/advanced/package.scala" />
+        <option value="$PROJECT_DIR$/src/org/yche/advanced/Function.scala" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -166,29 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yche" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basics" />
+              <option name="myItemId" value="advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,20 +191,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.BasicsContinue">
-    <configuration default="false" name="Specifications" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="Basics" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Function">
     <configuration default="false" name="BasicsOOP" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="org.yche.basics.BasicsOOP" />
@@ -277,6 +250,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.yche.collection.Collections" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Basics" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Function" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.yche.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.yche.advanced.Function" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -773,19 +766,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BasicsOOP" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BasicsContinue" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Collections" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BasicsOOP" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BasicsContinue" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Collections" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Function" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BasicsContinue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicsOOP" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Collections" />
-        <item index="4" class="java.lang.String" itemvalue="Gauge Execution.Specifications" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Function" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BasicsContinue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicsOOP" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Collections" />
       </list>
     </recent_temporary>
   </component>
@@ -805,12 +798,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480901652152</updated>
       <workItem from="1480901653815" duration="235000" />
-      <workItem from="1480902246872" duration="10051000" />
+      <workItem from="1480902246872" duration="12298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10286000" />
+    <option name="totallyTimeSpent" value="12533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-1" width="1922" height="1050" extended-state="6" />
@@ -967,20 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsFunctional.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1007,10 +986,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yche/basics/BasicsContinue.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
+        <state relative-caret-position="-476">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
