@@ -1,3 +1,5 @@
+package org.yche.basics
+
 /**
   * Created by cheyulin on 12/5/16.
   */
