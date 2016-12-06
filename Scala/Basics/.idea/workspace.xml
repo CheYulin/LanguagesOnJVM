@@ -22,29 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Function.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Function.scala">
+      <file leaf-file-name="Type.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Type.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="289">
-                <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -80,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/org/yche/advanced/package.scala" />
         <option value="$PROJECT_DIR$/src/org/yche/advanced/Function.scala" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/org/yche/advanced/Type.scala" />
       </list>
     </option>
   </component>
@@ -191,7 +176,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Function">
+  <component name="RunManager" selected="Application.Type">
     <configuration default="false" name="BasicsOOP" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="org.yche.basics.BasicsOOP" />
@@ -242,14 +227,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Collections" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Function" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.yche.collection.*" />
+          <option name="PATTERN" value="org.yche.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.yche.collection.Collections" />
+      <option name="MAIN_CLASS_NAME" value="org.yche.advanced.Function" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -262,14 +247,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Function" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Type" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.yche.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.yche.advanced.Function" />
+      <option name="MAIN_CLASS_NAME" value="org.yche.advanced.Type" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -769,16 +754,16 @@
       <item index="0" class="java.lang.String" itemvalue="Application.BasicsOOP" />
       <item index="1" class="java.lang.String" itemvalue="Application.BasicsContinue" />
       <item index="2" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Collections" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Function" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Function" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Type" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Function" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicsContinue" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicsOOP" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Collections" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Type" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Function" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicsContinue" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BasicsOOP" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BasicsFunctional" />
       </list>
     </recent_temporary>
   </component>
@@ -790,6 +775,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2fc49cf9-caa4-492b-9bfb-1140b3bdfe2c" name="Default" comment="" />
@@ -798,12 +786,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480901652152</updated>
       <workItem from="1480901653815" duration="235000" />
-      <workItem from="1480902246872" duration="12298000" />
+      <workItem from="1480902246872" duration="16894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12533000" />
+    <option name="totallyTimeSpent" value="17129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-1" width="1922" height="1050" extended-state="6" />
@@ -1002,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Function.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1011,8 +999,8 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <first_editor relative-caret-position="424">
+            <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1020,6 +1008,14 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yche/advanced/Type.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
