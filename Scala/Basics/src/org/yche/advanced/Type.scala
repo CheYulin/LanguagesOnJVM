@@ -58,8 +58,25 @@ object Type {
     println(getTweet(hatch()))
   }
 
+
   def demoBounds() = {
-    
+    //Scala allows you to restrict polymorphic variables using bounds. These bounds express subtype relationships.
+    def biophony[T <: Animal](things: Seq[T]) = things map (_.sound)
+    println(biophony(Seq(new Chicken, new Bird)))
+    println()
+  }
+
+  def demoQuantification() = {
+    def count[A](l: List[A]) = l.size
+    def count2(l: List[_]) = l.size
+    def countWholeThing(l: List[T forSome {type T}]) = l.size
+
+    println(count(List(1, 2)))
+    println(count2(List(1, 2)))
+    println(countWholeThing(List(1, 2)))
+
+    def hashcodes(l: Seq[_ <: AnyRef]) = l map (_.hashCode)
+    println(hashcodes(Seq("1", "2", "3")))
   }
 
   def main(args: Array[String]): Unit = {
@@ -67,5 +84,6 @@ object Type {
     demoTypeInference()
     demoVariance()
     demoBounds()
+    demoQuantification()
   }
 }

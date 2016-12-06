@@ -21,7 +21,12 @@
 ```
 
 ##Type & Polymorphism Basics
+
 - parametric polymorphism(generic programming, similar to template in C++)
+
+- type inference
+
+Variance, Bounds, Quantification
 
 > Scala’s type system has to account for class hierarchies together with polymorphism.
  Class hierarchies allow the expression of subtype relationships.
@@ -35,10 +40,13 @@ covariant | `C[T’]` is a subclass of `C[T]` | `[+T]`
 contravariant | `C[T]` is a subclass of `C[T’]` | `[-T]`
 invariant | `C[T]` and `C[T’]` are not related | `[T]`
 
-- type inference
 
 - existential quantification
 
 >  roughly, defining something for some unnamed type
 
 - views
+
+##Attention
+
+- `_` represents for wildcard
