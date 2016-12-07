@@ -90,6 +90,67 @@ object GraphLibDemo {
     g -! 2 ~ 3 // Graph(1)
 
     println(g)
+    println()
+  }
+
+  def demoSetOperations() = {
+    val g = Graph(1 ~ 2, 2 ~ 3, 2 ~ 4, 3 ~ 5, 4 ~ 5)
+    val h = Graph(3 ~ 4, 3 ~ 5, 4 ~ 6, 5 ~ 6)
+    var another = g union h // Graph(1~2, 2~3, 2~4, 3~5, 4~5, 3~4, 4~6, 5~6)
+    another = g diff h // Graph(1~2)
+    println(another)
+    another = g union h
+    println(another)
+    another = g intersect h // Graph(3~5, 4)
+    println(another)
+    another = g & h // Graph(3~5, 4), same instance
+    println(another)
+  }
+
+  def demoInspectEndPoints() = {
+    val uE = 3 ~ 4
+    println(uE._1 * uE._2)
+    println(uE product)
+
+    println(uE match {
+      case n ~ m => n * m
+    })
+
+    val dE = 1 ~> 2 // DiEdge[Int] = 1~>2
+    println(dE.source - dE.target) // Int = -1
+    println(uE.arity == dE.arity) // Boolean = true)
+    println(dE match {
+      case s ~> t => s - t
+    })
+
+    val hE = 1 ~ 2 ~ 11 ~ 12 // HyperEdge[Int] = 1~2~11~12
+    println(hE._n(hE.arity - 1)) // Int = 12
+    println(hE sum) // Int = 26
+    println()
+  }
+
+  def demoNeighbors() = {
+    val g = Graph(0, 1 ~ 3, 3 ~> 2)
+    val (n0, n2, n3) = (g get 0, g get 2, g get 3)
+    println(n0.diSuccessors) // Set[g.NodeT] = Set()
+    println(n2.diSuccessors.isEmpty) // Boolean = true
+    println(n3.diSuccessors) // Set[g.NodeT] = Set(1, 2)
+    println(n3.diPredecessors) // Set[g.NodeT] = Set(1)
+    println(n2.incoming) // Set[g.EdgeT] = Set(3~>2)
+    println(n3 ~>? n2) // Option[g.EdgeT] = Some(3~>2)
+    println()
+  }
+
+  def demoQueryByFunction() = {
+    val g = Graph(2 ~> 3, 3 ~ 1, 5)
+    println(g.nodes filter (_ > 2)) // Set[g.NodeT] = Set(5,3)
+    println(g.nodes filter (_.degree > 1)) // Set[g.NodeT] = Set(3)
+
+    //    g.edges filter (_.diSuccessors.isEmpty) // Set[g.EdgeT] = Set()
+    //    g filter ((i: Int) => i >= 2) // Graph(2,3,5, 2~>3)
+    println(g filter g.having(node = _ >= 2)) // Graph(2,3,5, 2~>3)
+    println(g filter g.having(edge = _.directed)) // Graph(2,3, 2~>3)
+    println(g count g.having(node = _ >= 3, edge = _.directed)) // Int = 3
   }
 
   def main(args: Array[String]): Unit = {
@@ -98,5 +159,9 @@ object GraphLibDemo {
     demoGraphOperations()
     demoGraphMutations()
     demoImmutable()
+    demoSetOperations()
+    demoInspectEndPoints()
+    demoNeighbors()
+    demoQueryByFunction()
   }
 }
